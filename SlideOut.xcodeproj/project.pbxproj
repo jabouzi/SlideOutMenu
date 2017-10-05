@@ -9,9 +9,14 @@
 /* Begin PBXBuildFile section */
 		72C049661F846A21000D8E9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C049651F846A21000D8E9A /* AppDelegate.swift */; };
 		72C049681F846A21000D8E9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C049671F846A21000D8E9A /* ViewController.swift */; };
-		72C0496B1F846A21000D8E9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72C049691F846A21000D8E9A /* Main.storyboard */; };
 		72C0496D1F846A21000D8E9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72C0496C1F846A21000D8E9A /* Assets.xcassets */; };
 		72C049701F846A21000D8E9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72C0496E1F846A21000D8E9A /* LaunchScreen.storyboard */; };
+		72C0497A1F85BFEF000D8E9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C049651F846A21000D8E9A /* AppDelegate.swift */; };
+		72C0497D1F85BFEF000D8E9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72C0496E1F846A21000D8E9A /* LaunchScreen.storyboard */; };
+		72C0497E1F85BFEF000D8E9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72C0496C1F846A21000D8E9A /* Assets.xcassets */; };
+		72C049861F85C079000D8E9A /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C049851F85C079000D8E9A /* ViewController2.swift */; };
+		72C049871F85C7F8000D8E9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72C049691F846A21000D8E9A /* Main.storyboard */; };
+		72C0498A1F85C8B4000D8E9A /* Main2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72C049891F85C8B4000D8E9A /* Main2.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +27,21 @@
 		72C0496C1F846A21000D8E9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72C0496F1F846A21000D8E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72C049711F846A21000D8E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72C049831F85BFEF000D8E9A /* SlideOut2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideOut2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72C049841F85BFEF000D8E9A /* SlideOut2.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = SlideOut2.plist; path = /Users/skanderjabouzi/Development/IOS/SlideOut/SlideOut/SlideOut2.plist; sourceTree = "<absolute>"; };
+		72C049851F85C079000D8E9A /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		72C049891F85C8B4000D8E9A /* Main2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main2.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		72C0495F1F846A21000D8E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72C0497B1F85BFEF000D8E9A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -47,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				72C049621F846A21000D8E9A /* SlideOut.app */,
+				72C049831F85BFEF000D8E9A /* SlideOut2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,10 +73,13 @@
 			children = (
 				72C049651F846A21000D8E9A /* AppDelegate.swift */,
 				72C049671F846A21000D8E9A /* ViewController.swift */,
+				72C049851F85C079000D8E9A /* ViewController2.swift */,
 				72C049691F846A21000D8E9A /* Main.storyboard */,
+				72C049891F85C8B4000D8E9A /* Main2.storyboard */,
 				72C0496C1F846A21000D8E9A /* Assets.xcassets */,
 				72C0496E1F846A21000D8E9A /* LaunchScreen.storyboard */,
 				72C049711F846A21000D8E9A /* Info.plist */,
+				72C049841F85BFEF000D8E9A /* SlideOut2.plist */,
 			);
 			path = SlideOut;
 			sourceTree = "<group>";
@@ -84,6 +104,23 @@
 			productReference = 72C049621F846A21000D8E9A /* SlideOut.app */;
 			productType = "com.apple.product-type.application";
 		};
+		72C049771F85BFEF000D8E9A /* SlideOut2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72C049801F85BFEF000D8E9A /* Build configuration list for PBXNativeTarget "SlideOut2" */;
+			buildPhases = (
+				72C049781F85BFEF000D8E9A /* Sources */,
+				72C0497B1F85BFEF000D8E9A /* Frameworks */,
+				72C0497C1F85BFEF000D8E9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlideOut2;
+			productName = SlideOut;
+			productReference = 72C049831F85BFEF000D8E9A /* SlideOut2.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -96,6 +133,9 @@
 				TargetAttributes = {
 					72C049611F846A21000D8E9A = {
 						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					72C049771F85BFEF000D8E9A = {
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -114,6 +154,7 @@
 			projectRoot = "";
 			targets = (
 				72C049611F846A21000D8E9A /* SlideOut */,
+				72C049771F85BFEF000D8E9A /* SlideOut2 */,
 			);
 		};
 /* End PBXProject section */
@@ -123,9 +164,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72C049871F85C7F8000D8E9A /* Main.storyboard in Resources */,
 				72C049701F846A21000D8E9A /* LaunchScreen.storyboard in Resources */,
 				72C0496D1F846A21000D8E9A /* Assets.xcassets in Resources */,
-				72C0496B1F846A21000D8E9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72C0497C1F85BFEF000D8E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72C0497D1F85BFEF000D8E9A /* LaunchScreen.storyboard in Resources */,
+				72C0498A1F85C8B4000D8E9A /* Main2.storyboard in Resources */,
+				72C0497E1F85BFEF000D8E9A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +189,15 @@
 			files = (
 				72C049681F846A21000D8E9A /* ViewController.swift in Sources */,
 				72C049661F846A21000D8E9A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72C049781F85BFEF000D8E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72C0497A1F85BFEF000D8E9A /* AppDelegate.swift in Sources */,
+				72C049861F85C079000D8E9A /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +362,38 @@
 			};
 			name = Release;
 		};
+		72C049811F85BFEF000D8E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9X444WKYY5;
+				INFOPLIST_FILE = "$(SRCROOT)/SlideOut/SlideOut2.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skanderjabouzi.SlideOut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72C049821F85BFEF000D8E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9X444WKYY5;
+				INFOPLIST_FILE = "$(SRCROOT)/SlideOut/SlideOut2.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skanderjabouzi.SlideOut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -319,6 +411,15 @@
 			buildConfigurations = (
 				72C049751F846A21000D8E9A /* Debug */,
 				72C049761F846A21000D8E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72C049801F85BFEF000D8E9A /* Build configuration list for PBXNativeTarget "SlideOut2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72C049811F85BFEF000D8E9A /* Debug */,
+				72C049821F85BFEF000D8E9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
