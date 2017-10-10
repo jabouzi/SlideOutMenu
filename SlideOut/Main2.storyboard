@@ -62,41 +62,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="xzS-w6-XFu">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="667"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P5K-NT-9Xw">
+                                <rect key="frame" x="0.0" y="64" width="240" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="Qa2-Cl-qSS"/>
-                                    <constraint firstAttribute="height" constant="667" id="tkK-qR-L3u"/>
-                                </constraints>
-                            </imageView>
-                            <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tWH-e2-vG2">
-                                <rect key="frame" x="238" y="0.0" width="137" height="667"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="137" id="dK8-BX-tpH"/>
-                                </constraints>
-                            </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xcr-CT-R0L">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="667"/>
-                                <color key="backgroundColor" red="0.066666666669999999" green="0.56470588239999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="pqD-75-kX3"/>
+                                    <constraint firstAttribute="width" constant="240" id="Zw9-Ml-H6h"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="fD0-Yk-OYc" firstAttribute="top" secondItem="tWH-e2-vG2" secondAttribute="bottom" id="1EK-gg-TuL"/>
-                            <constraint firstItem="xzS-w6-XFu" firstAttribute="top" secondItem="8ze-jp-Rtz" secondAttribute="top" id="2ES-Ye-3xk"/>
-                            <constraint firstItem="xzS-w6-XFu" firstAttribute="leading" secondItem="8ze-jp-Rtz" secondAttribute="leading" id="5JH-Md-QM9"/>
-                            <constraint firstAttribute="trailing" secondItem="tWH-e2-vG2" secondAttribute="trailing" id="B8Z-Dc-57g"/>
-                            <constraint firstItem="Xcr-CT-R0L" firstAttribute="top" secondItem="8ze-jp-Rtz" secondAttribute="top" id="ILA-Lz-0Jd"/>
-                            <constraint firstAttribute="trailing" secondItem="xzS-w6-XFu" secondAttribute="trailing" constant="135" id="KAL-Eu-gyE"/>
-                            <constraint firstItem="Xcr-CT-R0L" firstAttribute="leading" secondItem="8ze-jp-Rtz" secondAttribute="leading" id="NmZ-q4-Q9u"/>
-                            <constraint firstItem="fD0-Yk-OYc" firstAttribute="top" secondItem="Xcr-CT-R0L" secondAttribute="bottom" id="VEy-GS-sdU"/>
-                            <constraint firstItem="fD0-Yk-OYc" firstAttribute="top" secondItem="xzS-w6-XFu" secondAttribute="bottom" id="cGc-w1-Ji3"/>
-                            <constraint firstItem="tWH-e2-vG2" firstAttribute="top" secondItem="8ze-jp-Rtz" secondAttribute="top" id="vpe-lV-OqI"/>
+                            <constraint firstItem="fD0-Yk-OYc" firstAttribute="top" secondItem="P5K-NT-9Xw" secondAttribute="bottom" id="5vl-XO-ph3"/>
+                            <constraint firstItem="P5K-NT-9Xw" firstAttribute="top" secondItem="pH8-9S-sNe" secondAttribute="bottom" id="KZw-4p-t8C"/>
+                            <constraint firstItem="P5K-NT-9Xw" firstAttribute="leading" secondItem="8ze-jp-Rtz" secondAttribute="leading" id="p7a-kL-8sf"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -123,7 +101,4 @@
             <point key="canvasLocation" x="63" y="179"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="Background" width="16" height="16"/>
-    </resources>
 </document>
