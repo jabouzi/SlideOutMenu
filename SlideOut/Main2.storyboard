@@ -39,11 +39,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="HOME VC" id="Aql-iW-lA9">
-                        <barButtonItem key="leftBarButtonItem" systemItem="compose" id="ZLQ-Hc-sqX">
-                            <connections>
-                                <segue destination="Au7-2R-Nsy" kind="show" id="pvs-tP-co3"/>
-                            </connections>
-                        </barButtonItem>
+                        <barButtonItem key="leftBarButtonItem" systemItem="compose" id="ZLQ-Hc-sqX"/>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dGU-Dq-EmQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -61,21 +57,7 @@
                     <view key="view" contentMode="scaleToFill" id="8ze-jp-Rtz">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P5K-NT-9Xw">
-                                <rect key="frame" x="0.0" y="64" width="240" height="603"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="Zw9-Ml-H6h"/>
-                                </constraints>
-                            </view>
-                        </subviews>
                         <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="fD0-Yk-OYc" firstAttribute="top" secondItem="P5K-NT-9Xw" secondAttribute="bottom" id="5vl-XO-ph3"/>
-                            <constraint firstItem="P5K-NT-9Xw" firstAttribute="top" secondItem="pH8-9S-sNe" secondAttribute="bottom" id="KZw-4p-t8C"/>
-                            <constraint firstItem="P5K-NT-9Xw" firstAttribute="leading" secondItem="8ze-jp-Rtz" secondAttribute="leading" id="p7a-kL-8sf"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pxk-eV-Rkw" userLabel="First Responder" sceneMemberID="firstResponder"/>
