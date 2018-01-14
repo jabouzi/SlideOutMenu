@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController2: UIViewController {
-  var menuView: MenuView!
+  var menuView: MenuView2!
   var leadingConstraint: NSLayoutConstraint!
   var topConstraint: NSLayoutConstraint!
   var bottomConstraint: NSLayoutConstraint!
@@ -17,14 +17,14 @@ class ViewController2: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    menuView = MenuView(frame: CGRect(x: 0, y: 0, width: 240, height: 667))
+    menuView = MenuView2(frame: CGRect(x: 0, y: 0, width: 240, height: 667))
   }
   
   override func viewDidAppear(_ animated: Bool) {
     self.view.addSubview(menuView)
     menuView.translatesAutoresizingMaskIntoConstraints = false
     setConstraints()
-    leadingConstraint.constant = -340
+    leadingConstraint.constant = -240
     menuView.layer.shadowOpacity = 1
     menuView.layer.shadowRadius = 1
   }
@@ -50,6 +50,7 @@ class ViewController2: UIViewController {
       self.view.layoutIfNeeded()
     })
     menuShowing = !menuShowing
+    debugPrint(menuShowing)
   }    
   
 }
